@@ -1,0 +1,22 @@
+[
+    {
+        "idCategoria":1,
+        "nomCategoria": "HTML"
+    },
+    {
+        "idCategoria":2,
+        "nomCategoria": "CSS"
+    },
+    {
+        "idCategoria":3,
+        "nomCategoria": "JAVASCRIPT"
+    },
+    {
+        "idCategoria":4,
+        "nomCategoria": "LIBRERIAS"
+    },
+    {
+        "idCategoria":5,
+        "nomCategoria": "FRAMEWORK"
+    }
+]

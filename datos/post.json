@@ -1,0 +1,49 @@
+{
+"posts": [
+    {
+      "idPost": 1,
+      "idCategoria":1,
+      "categoria":"HTML",
+      "titulo": "QUE ES HTML",
+      "descripcion": "HTML, siglas de HyperText Markup Language (Lenguaje de Marcado de Hipertexto), es un lenguaje de marcado utilizado para crear la estructura y el contenido de las páginas web. Consiste en un conjunto de etiquetas que se utilizan para definir diferentes elementos y su presentación en un documento web. En HTML, un elemento se distingue de otro texto en un documento mediante etiquetas, que consisten en el nombre del elemento rodeado por \"<\" y \"\">\"\". El nombre de un elemento dentro de una etiqueta no distingue entre mayúsculas y minúsculas, por lo que se puede escribir en mayúsculas, minúsculas o una mezcla. El elemento \"<\"html\">\" encierra todo el contenido de la página y se conoce como el elemento raíz (root element). Dentro de \"<\"html\"\">\"\", se encuentra el elemento \"<\"head\">\", que contiene información sobre el documento, como el título de la página y enlaces a archivos externos, como hojas de estilo CSS y scripts JavaScript. HTML se utiliza para definir la estructura básica de una página web y organizar la forma en que se muestra su contenido. Permite incluir texto, imágenes, enlaces, listas, tablas, videos y otros elementos que componen una página web. También se utiliza para crear enlaces hacia otras páginas o documentos. Es importante destacar que HTML no es un lenguaje de programación en sí mismo, ya que no cuenta con funciones aritméticas, variables o estructuras de control propias de los lenguajes de programación. Sin embargo, combinado con otros lenguajes como CSS y JavaScript, se pueden crear páginas web dinámicas y funcionales. En resumen, HTML es el lenguaje utilizado para definir la estructura y el contenido de las páginas web, utilizando etiquetas para marcar y organizar los diferentes elementos de la página",
+      "img":"posthtml5.jpg",
+      "fecha":"31/01/2004"
+    },
+    {
+        "idPost": 2,
+        "idCategoria":2,
+        "categoria":"CSS",
+        "titulo": "QUE ES CSS",
+        "descripcion": "CSS, siglas de Cascading Style Sheets (Hojas de Estilo en Cascada), es un lenguaje de estilo utilizado para definir la presentación y el aspecto visual de un documento HTML. Mientras que HTML se encarga de la estructura y el contenido de una página web, CSS se utiliza para controlar el diseño, el formato y la apariencia de esos elementos. CSS permite aplicar estilos a diferentes elementos HTML, como texto, imágenes, enlaces, tablas, formularios y más. Con CSS, se pueden definir propiedades como el color, la fuente, el tamaño, el espaciado, el fondo, los bordes y muchas otras características visuales de los elementos de una página web. Una de las principales ventajas de CSS es su capacidad para separar la presentación del contenido. Esto significa que el código HTML se utiliza para estructurar el contenido de la página, mientras que el código CSS se utiliza para definir cómo se presenta ese contenido. Esta separación facilita la modificación y el mantenimiento del diseño de una página web, ya que los cambios en el código CSS pueden aplicarse a todos los elementos HTML que utilizan ese estilo. CSS utiliza una sintaxis basada en reglas, donde se especifica un selector que indica qué elementos se verán afectados por las reglas de estilo, seguido de las propiedades y los valores que se aplicarán a esos elementos. Por ejemplo: En este ejemplo, se seleccionan todos los elementos '\"<\"p\">\"' y se les aplica un color azul y un tamaño de fuente de 16 píxeles.",
+        "img":"postcss3.jpg",
+        "fecha":"31/01/2004"
+      },
+      {
+        "idPost": 3,
+        "idCategoria":3,
+        "categoria":"JAVASCRIPT",
+        "titulo": "QUE ES JS",
+        "descripcion": "JavaScript, también conocido como JS, es un lenguaje de programación utilizado para aumentar la interactividad y la vitalidad de las páginas web. A diferencia de otros lenguajes de programación, JavaScript se ejecuta directamente en el navegador web del usuario, lo que significa que no requiere un compilador adicional. Es uno de los tres lenguajes principales de Internet, junto con HTML y CSS. JavaScript se utiliza principalmente para agregar interactividad a las páginas web. Permite crear efectos visuales, animaciones y responder a las interacciones del usuario, como hacer clic en botones o realizar cambios en el contenido de la página (DOM). Con JavaScript, puedes manipular elementos HTML, realizar validaciones de formularios, enviar y recibir datos del servidor, y mucho más. Una de las ventajas clave de JavaScript es su capacidad para trabajar tanto en el lado del cliente como en el lado del servidor. En el lado del cliente, se ejecuta en el navegador web del usuario y se utiliza para mejorar la experiencia del usuario. En el lado del servidor, se utiliza en entornos como Node.js para crear aplicaciones web y servicios. JavaScript tiene una amplia comunidad de desarrolladores y una gran cantidad de bibliotecas y frameworks disponibles. Esto permite a los desarrolladores aprovechar el ecosistema de JavaScript para crear aplicaciones web complejas y escalables. Además, JavaScript se ha expandido más allá de los navegadores web y se utiliza en otros entornos, como aplicaciones móviles y desarrollo de juegos. En resumen, JavaScript es un lenguaje de programación utilizado para agregar interactividad y dinamismo a las páginas web. Es esencial para el desarrollo web moderno y se utiliza tanto en el lado del cliente como en el lado del servidor.",
+        "img":"queesjs.jpg",
+        "fecha":"31/01/2004"
+      },
+      {
+        "idPost": 4,
+        "idCategoria":4,
+        "categoria":"LIBRERIAS",
+        "titulo": "QUE SON LAS LIBRERIAS",
+        "descripcion": "En JavaScript, una biblioteca es un archivo que contiene una colección de funciones y utilidades predefinidas que se pueden utilizar para facilitar el desarrollo de aplicaciones web. Estas bibliotecas están escritas en JavaScript y proporcionan una serie de funciones y métodos listos para usar, lo que permite a los desarrolladores ahorrar tiempo y esfuerzo al no tener que escribir todo el código desde cero. Las bibliotecas de JavaScript son creadas por la comunidad de desarrolladores y se utilizan para abordar tareas comunes y repetitivas en el desarrollo web. Estas bibliotecas ofrecen una amplia gama de funcionalidades, como manipulación del DOM, animaciones, interacciones con el usuario, manejo de eventos, comunicación con el servidor, validación de formularios, entre muchas otras. Algunas bibliotecas populares de JavaScript incluyen:jQuery: Es una de las bibliotecas más utilizadas y ofrece una amplia gama de funciones para simplificar la manipulación del DOM, el manejo de eventos y la comunicación con el servidor.React: Es una biblioteca de JavaScript desarrollada por Facebook que se utiliza para construir interfaces de usuario interactivas y reutilizables. React utiliza un enfoque basado en componentes para crear interfaces de usuario dinámicas.",
+        "img":"quesonlaslibrerias.jpg",
+        "fecha":"31/01/2004"
+      },
+      {
+        "idPost": 5,
+        "idCategoria":1,
+        "categoria":"HTML",
+        "titulo": "Etiquetas Semánticas",
+        "descripcion": "Las etiquetas semánticas en HTML son aquellas que se utilizan para dar significado y estructura al contenido de una página web. A diferencia de las etiquetas genéricas como \"<\"div\">\" o \"<\"span\">\", las etiquetas semánticas proporcionan información adicional sobre el contenido y su propósito. Algunas de las etiquetas semánticas más comunes en HTML5 son: \"<\"header\">\": Define el encabezado de una página o sección. \"<\"nav\">\": Define una sección de navegación. \"<\"main\">\": Define el contenido principal de una página. \"<\"article\">\": Define un contenido independiente y autónomo. \"<\"section\">\": Define una sección lógica o temática. \"<\"aside\">\": Define un contenido relacionado pero independiente del contenido principal. \"<\"footer\">\": Define el pie de página de una página o sección. Estas etiquetas ayudan a los motores de búsqueda y a los desarrolladores a comprender mejor la estructura y el significado del contenido de una página web. Además, facilitan la accesibilidad y mejoran la experiencia del usuario al proporcionar una estructura clara y significativa. Es importante destacar que el uso de etiquetas semánticas no solo beneficia a los motores de búsqueda y a los desarrolladores, sino que también ayuda a mantener un código más claro y fácil de mantener.",
+        "img":"etiquetassemanticas.jpg",
+        "fecha":"31/01/2004"
+      }
+]
+}
